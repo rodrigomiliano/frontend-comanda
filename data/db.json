@@ -1,0 +1,433 @@
+{
+  "plates": [
+    {
+      "plate": "Fideos Estilo Singapur",
+      "img": "../src/Assets/Images/fideos-estilo-singapur.jpg"
+    },
+    {
+      "plate": "Gambas al Ajillo",
+      "img": "../src/Assets/Images/gambas-al-ajillo.jpg"
+    },
+    {
+      "plate": "Lemon Pie",
+      "img": "../src/Assets/Images/lemon-pie.jpg"
+    }
+  ],
+  "clients": [
+    {
+      "nombre": "Maximiliano",
+      "apellido": "Principe",
+      "id": 1
+    },
+    {
+      "nombre": "Rodrigo",
+      "apellido": "Miliano",
+      "id": 2
+    },
+    {
+      "nombre": "Ignacio",
+      "apellido": "Esses",
+      "id": 3
+    }
+  ],
+  "categories": [
+    {
+      "text": "Pastas",
+      "id": 1
+    },
+    {
+      "text": "Parrilla",
+      "id": 2
+    },
+    {
+      "text": "Ensaladas",
+      "id": 3
+    },
+    {
+      "text": "Entradas",
+      "id": 4
+    },
+    {
+      "text": "Postres",
+      "id": 5
+    },
+    {
+      "text": "Bebidas",
+      "id": 6
+    },
+    {
+      "text": "Vinos",
+      "id": 7
+    }
+  ],
+  "booktime": [
+    {
+      "hora": "12:00hs",
+      "isActive": true,
+      "id": 1
+    },
+    {
+      "hora": "14:00hs",
+      "isActive": true,
+      "id": 2
+    },
+    {
+      "hora": "16:00hs",
+      "isActive": true,
+      "id": 3
+    },
+    {
+      "hora": "18:00hs",
+      "isActive": false,
+      "id": 4
+    },
+    {
+      "hora": "20:00hs",
+      "isActive": true,
+      "id": 5
+    },
+    {
+      "hora": "22:00hs",
+      "isActive": true,
+      "id": 5
+    }
+  ],
+  "reservas": [
+    {
+      "fecha": "01/04/2022",
+      "nombre": "Kentucky Almagro",
+      "direccion": "Palestina 289",
+      "cantidad": "2",
+      "id": 1
+    },
+    {
+      "fecha": "15/06/2022",
+      "nombre": "Kentucky Balvanera",
+      "direccion": "Ecuador 1889",
+      "cantidad": "4",
+      "id": 2
+    },
+    {
+      "fecha": "22/07/2022",
+      "nombre": "local 3",
+      "direccion": "Kentucky San Cristobal",
+      "cantidad": "6",
+      "id": 3
+    }
+  ],
+  "locales": [
+    {
+      "id": 1,
+      "nombre": "Alé Alé",
+      "direccion": "Niceto Vega 3261",
+      "horarios": "10 a 24",
+      "estado": "1",
+      "acciones": ""
+    },
+    {
+      "id": 2,
+      "nombre": "Don Battaglia",
+      "direccion": "Av. Scalabrini Ortiz 1529",
+      "horarios": "12 a 23",
+      "estado": "0",
+      "acciones": ""
+    },
+    {
+      "id": 3,
+      "nombre": "La Soleada",
+      "direccion": "Murillo 4269",
+      "horarios": "18 a 23",
+      "estado": "1",
+      "acciones": ""
+    }
+  ],
+  "itemsMenu": [
+    {
+      "link": "https://loremflickr.com/100/100",
+      "nombre": "Mila Napo",
+      "descripcion": "Clásica napo con fritas.",
+      "precio": "$1750",
+      "id": 1
+    },
+    {
+      "link": "https://loremflickr.com/100/100",
+      "nombre": "Fideitos",
+      "descripcion": "Clásica napo con fritas.",
+      "precio": "$1750",
+      "id": 1
+    },
+    {
+      "link": "https://loremflickr.com/100/100",
+      "nombre": "Polenta con pajaritos y una rodaja de pan",
+      "descripcion": "Clásica napo con fritas y ensalada y huevo frito y demas cosas.",
+      "precio": "$1750",
+      "id": 1
+    }
+  ],
+  "users": [
+    {
+      "id": 1,
+      "email": "mprincipe@",
+      "nombre": "Maximiliano",
+      "apellido": "Principe",
+      "telefono": "12345678",
+      "tipo": "admin",
+      "local": "1",
+      "password": "1",
+      "estado": "1",
+      "acciones": ""
+    },
+    {
+      "id": 2,
+      "email": "rmiliano@",
+      "nombre": "Rodrigo",
+      "apellido": "Miliano",
+      "telefono": "44444444",
+      "tipo": "admin",
+      "local": "2",
+      "password": "2",
+      "estado": "0",
+      "acciones": ""
+    },
+    {
+      "id": 3,
+      "email": "iesses@",
+      "nombre": "Ignacio",
+      "apellido": "Esses",
+      "telefono": "99999999",
+      "tipo": "admin",
+      "local": "3",
+      "password": "3",
+      "estado": "1",
+      "acciones": ""
+    }
+  ],
+  "mesas": [
+    {
+      "id": 1,
+      "local": "1",
+      "sillas": "80",
+      "estado": "1",
+      "acciones": ""
+    },
+    {
+      "id": 2,
+      "local": "1",
+      "sillas": "80",
+      "estado": "0",
+      "acciones": ""
+    }
+  ],
+  "products": [
+    {
+      "id": 1,
+      "nombre": "Milanesa",
+      "descripcion": "Milanesa gran príncipe",
+      "categoria": "Premium",
+      "etiqueta": "Carnes",
+      "local": "1",
+      "precio": "$4500",
+      "foto": "mprincipe.jpg",
+      "estado": "1",
+      "acciones": ""
+    },
+    {
+      "id": 2,
+      "nombre": "Ñoquis",
+      "descripcion": "Ñoquis caseros con salsa a elección",
+      "categoria": "Pastas",
+      "etiqueta": "",
+      "local": "1",
+      "precio": "$1200",
+      "foto": "noquis.jpg",
+      "estado": "1",
+      "acciones": ""
+    },
+    {
+      "id": 2,
+      "nombre": "Parrillada p/2",
+      "descripcion": "Parrillada completa para dos personas: medio chori, tres morcillas, un huesito",
+      "categoria": "Carnes",
+      "etiqueta": "Carnívoro full",
+      "local": "1",
+      "precio": "$2800",
+      "foto": "parrilla.jpg",
+      "estado": "0",
+      "acciones": ""
+    }
+  ],
+  "categorias": [
+    {
+      "id": 1,
+      "nombre": "Hamburguesas",
+      "descripcion": "hamburguesas de cualquier tipo",
+      "id_local": "01, 02, 03",
+      "estado": "1",
+      "acciones": ""
+    },
+    {
+      "id": 2,
+      "nombre": "Pizza",
+      "descripcion": "pizza al molde o a la piedra",
+      "id_local": "01, 03",
+      "estado": "0",
+      "acciones": ""
+    },
+    {
+      "id": 3,
+      "nombre": "Pastas",
+      "descripcion": "pastas caseras",
+      "id_local": "02, 03",
+      "estado": "1",
+      "acciones": ""
+    }
+  ],
+  "etiquetas": [
+    {
+      "id": 1,
+      "nombre": "Vegano",
+      "descripcion": "Apto veganos",
+      "id_local": "01, 02, 03",
+      "estado": "1",
+      "acciones": ""
+    },
+    {
+      "id": 2,
+      "nombre": "Sin T.A.C.C.",
+      "descripcion": "Apto celíacos",
+      "id_local": "01, 03",
+      "estado": "0",
+      "acciones": ""
+    },
+    {
+      "id": 3,
+      "nombre": "Vegetariano",
+      "descripcion": "sin carne animal",
+      "id_local": "02, 03",
+      "estado": "1",
+      "acciones": ""
+    }
+  ],
+  "days": [
+    {
+      "id": 1,
+      "nombre": "Lunes"
+    },
+    {
+      "id": 2,
+      "nombre": "Martes"
+    },
+    {
+      "id": 3,
+      "nombre": "Miércoles"
+    },
+    {
+      "id": 4,
+      "nombre": "Jueves"
+    },
+    {
+      "id": 5,
+      "nombre": "Viernes"
+    },
+    {
+      "id": 6,
+      "nombre": "Sábado"
+    },
+    {
+      "id": 7,
+      "nombre": "Domingo"
+    }
+  ],
+  "ordenes": [
+    {
+      "id": 1,
+      "mesa": "01",
+      "usuario": "Rodrigo Miliano",
+      "ingreso": "21:15",
+      "ultimoPedido": "21:43",
+      "estado": "Pendiente",
+      "info": ""      
+    },
+    {
+      "id": 2,
+      "mesa": "04",
+      "usuario": "Maximiliano Principe",
+      "ingreso": "20:50",
+      "ultimoPedido": "20:55",
+      "estado": "Despacho",
+      "info": ""      
+    },
+    {
+      "id": 3,
+      "mesa": "12",
+      "usuario": "Ignacio Esses",
+      "ingreso": "20:20",
+      "ultimoPedido": "20:56",
+      "estado": "Entregado",
+      "info": ""      
+    }
+  ],
+  "pedidos": [
+    {
+      "id": 1,
+      "cantidad": "2",
+      "nombre": "Agua mineral sin gas",      
+      "acciones": ""      
+    },
+    {
+      "id": 2,
+      "cantidad": "1",
+      "nombre": "Lomo al champignon c/papas españolas",      
+      "acciones": ""      
+    },
+    {
+      "id": 3,
+      "cantidad": "1",
+      "nombre": "Pastel de papa de la casa",      
+      "acciones": ""      
+    }
+  ],
+  "consumidos": [
+    {
+      "id": 1,
+      "cantidad": "2",
+      "nombre": "Campari con naranja",
+      "precio": "450",      
+      "acciones": ""      
+    },
+    {
+      "id": 2,
+      "cantidad": "1",
+      "nombre": "Entrada berenjenas al escabeche",
+      "precio": "280",            
+      "acciones": ""      
+    },
+    {
+      "id": 3,
+      "cantidad": "1",
+      "nombre": "Entrada hummus de remolacha",   
+      "precio": "320",         
+      "acciones": ""      
+    }
+  ],
+  "estadisticas": [
+    {
+      "id": 1,      
+      "nombre": "Facturación",
+      "valor": "427250",      
+      "acciones": ""      
+    },
+    {
+      "id": 2,      
+      "nombre": "Comandas",
+      "valor": "125",            
+      "acciones": ""      
+    },
+    {
+      "id": 3,      
+      "nombre": "Comandas promedio",   
+      "valor": "3418",         
+      "acciones": ""      
+    }
+  ]
+}
